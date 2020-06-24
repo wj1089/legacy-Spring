@@ -23,4 +23,9 @@ public class GymController {
 		logger.info("---------------------이동 화면 진입-----------------");
 		return "Join";
 	}
+	@GetMapping("/login/form")
+	public String loginForm() {
+		logger.info("이동화면 진입");
+		return "Login";
+	}
 }

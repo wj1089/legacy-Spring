@@ -16,4 +16,5 @@ public class UserController {
 		logger.info("이동화면 진입");
 		return "Join";
 	}
+	
 }
