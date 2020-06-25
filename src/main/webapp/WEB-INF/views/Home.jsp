@@ -2,7 +2,7 @@
 pageEncoding="UTF-8"%>
 
 <html>
-<jsp:include page="Header.jsp"/>
+<jsp:include page="./common/Header.jsp"/>
 
 <body>
 	<div id="root">
@@ -11,7 +11,7 @@ pageEncoding="UTF-8"%>
 				<img src="https://www.grandslamfitness.co.in/products/wp-content/uploads/2017/12/Reasons-why-many-Gyms-Fail.jpg" alt="aminal images" class="header-img img-fluid">
 			</div>
 			<div class="PostWrapper">
-					<jsp:include page="Navigator.jsp"/>
+					<jsp:include page="./common/Navigator.jsp"/>
 					
 				<div class="Post">
 						<div class="form-group">
@@ -31,13 +31,13 @@ pageEncoding="UTF-8"%>
 <script>
 $('#join_btn').click(function(e){
 	e.preventDefault()
-	console.log('이동화면 진입')
+	console.log('Join 이동화면 진입')
 	alert("<%=application.getContextPath()%>")
 	location.href="<%=application.getContextPath()%>/gym/join/form"
 })
 $('#login_btn').click(function(e){
 	e.preventDefault()
-	console.log('이동화면 진입')
+	console.log('Login 이동화면 진입')
 	alert("<%=application.getContextPath()%>")
 	location.href="<%=application.getContextPath()%>/gym/login/form"
 })

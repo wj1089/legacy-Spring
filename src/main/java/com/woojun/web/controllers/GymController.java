@@ -18,12 +18,12 @@ public class GymController {
 //	@Autowired GymService gymService;
 	private static final Logger logger = LoggerFactory.getLogger(GymController.class);
 
-	@GetMapping("/join/form")
+	@GetMapping("account/join/form")
 	public String joinForm() {
 		logger.info("---------------------이동 화면 진입-----------------");
 		return "Join";
 	}
-	@GetMapping("/login/form")
+	@GetMapping("account/login/form")
 	public String loginForm() {
 		logger.info("이동화면 진입");
 		return "Login";
