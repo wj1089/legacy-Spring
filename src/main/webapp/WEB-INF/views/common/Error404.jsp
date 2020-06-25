@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>에러 404</h1>
+<img src=https://image.fmkorea.com/files/attach/new/20140922/4104643/74051/67041420/d84c3e64baa55b121ebe3d8ce6686ace.jpeg>
+<h1>謹   故 - 에러 404 弔  </h1>
 </body>
 </html>
