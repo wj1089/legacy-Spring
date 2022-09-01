@@ -28,7 +28,7 @@
         <tiles-extras-version>3.0.8</tiles-extras-version>
         <tiles-jsp-version>3.0.8</tiles-jsp-version>
         
-        <org-jsoup-version>1.11.2</org-jsoup-version>
+        <org-jsoup-version>1.15.3</org-jsoup-version>
     </properties>
 	<dependencies>
 		<!-- Spring -->
